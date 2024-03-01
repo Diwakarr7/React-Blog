@@ -1,4 +1,75 @@
 .singlepost{
-
    flex:9;
+
+
+
 }
+.singlePostImg{
+   width:100%;
+  /* padding:16px; */
+  height:300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostWrapper{
+   padding:20px;
+   /* padding-right: 0; */
+
+}
+.singlePostTitle{
+   text-align: center;
+   margin:10px;
+   font-weight: 300;
+   font-size:26px;
+   font-family: monospace, sans-serif;
+
+}
+
+.singlePostEdit{
+   float: right;
+   font-size: 16px;
+}
+
+.singlePostIcon{
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+   color:aqua;
+
+}
+
+
+.singlePostIcon:last-child{
+   color:tomato
+
+}
+
+
+.singlePostInfo{
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 16px;
+   color:#b39656;
+   font-family: "Varela", sans-serif;
+}
+
+
+.singlePostDesc{
+      color:#666;
+       font-size:16px;
+       line-height: 25px;
+
+}
+.singlePostDesc::first-letter{
+   font-size: 30px;
+   font-weight: 600;
+   margin-left:20px;
+}
+
+
+
+
